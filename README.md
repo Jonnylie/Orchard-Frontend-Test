@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Interface Development Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Design assets
 
-## Available Scripts
+- Invision public URL: https://invis.io/7R1299R6C2WT
+- Invision password: orchard123
+- If you require access please email your contact to arrange.
+  _I have sent a request, send email to orchard to give you access_
 
-In the project directory, you can run:
+## Test instructions
 
-### `npm start`
+In the linked Invision page you will find the designs for two components. Complete the following:
+_two component mentioned above_
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- The code should be submitted via a github account. Bonus points for more than one commit.
+  _commit more with meaningful comments_
+- Build the two blocks using modern HTML5 standards.
+  _two component, semantic html (watch webdevsimplified intro to html)_
+- Use JavaScript to capture all anchor clicks, and `console.log()` the element which has been clicked.
+  _capture <a> tag, console.log('summer lunch menu by Mark Best' article has been clicked)_
+- As with any modern web-build we expect a level of interactivity/animation to be displayed on the nodes.
+  _interactivity/animation, display picture in modal if picture is click_
+- All content areas should be deemed as being populated from a CMS - so all copy lengths can vary!
+  _display long text with ..._
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies
 
-### `npm test`
+- Any CSS-preprocessors or frameworks.
+  _bootstrap, sass, react, react router, create react app?_
+- ES5 or ES6+ acceptable.
+  _ES6_
+- Please include some reasoning for the decisions via comments or readme.
+  _reasons why you choose the technology in readme_
+- Build tools and task runners are encouraged (e.g. grunt/gulp/webpack).
+  _create react app to make it simpler_
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Layout
 
-### `npm run build`
+- The layout is expected to work in the latest Chrome/FireFox/Edge versions.
+- The layout should be responsive and work down to a `320px` mobile device.
+  _responsive using bootstrap 5_
+- Bearing in mind that this application is expected to be responsive, the developer should consider the appropriate `<meta>` tags.
+  _i am not sure about this, ask Yoga maybe or do some research on google_
+- **Section: All the latest:** These items should be links to new pages.
+- **Section: Answer your body's needs:** Each image in this section should display in a modal on click.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Review Criteria
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+We are looking for your ability to bring life to static designs. During that process consider the following:
+_make it a modern website with some interactivity/animation_
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Project structure:** Clean project and logical traversal.
+  _logical traversal, project and code must be clean_
+- **JavaScript:** Efficiency of code and efficacy in bringing the design to life.
+- **Interface:** Semantic markup styling.
+  _semantic html_
+- **Git:** Bonus points for submission on a github account showing multiple commits.
+  _multiple commits on github is a must_
+- **Quality:** Production-grade build and precision.
+  _quality must be great and please make sure all comments above are addressed_
