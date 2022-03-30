@@ -1,12 +1,15 @@
 import React from "react";
-import FirstSection from "./FirstSection";
-import SecondSection from "./SecondSection";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./Home";
 
 function App() {
   return (
-    <div className="d-flex flex-column justify-content-center align-items-center py-5">
-      <FirstSection />
-      <SecondSection />
+    <div className="app">
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

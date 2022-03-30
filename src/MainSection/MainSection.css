@@ -1,4 +1,4 @@
-.first-section {
+.main-section {
   width: 1200px;
   min-height: fit-content;
   margin: 120px 186px !important;
@@ -13,10 +13,6 @@
   max-width: 384px;
   width: 100%;
   max-height: 600px;
-}
-
-.fruits-image {
-  margin-bottom: 20px;
 }
 
 .first-paragraph {
@@ -36,7 +32,7 @@
 }
 
 @media screen and (max-width: 1400px) {
-  .first-section {
+  .main-section {
     max-width: 792px;
     max-height: fit-content;
   }
@@ -61,7 +57,7 @@
     margin-bottom: 10px;
   }
 
-  .first-section {
+  .main-section {
     max-width: 100%;
   }
 
