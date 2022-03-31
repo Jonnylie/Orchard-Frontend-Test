@@ -1,0 +1,8 @@
+.article-container {
+  width: 100%;
+}
+
+.paragraph-container {
+  width: 1200px;
+  max-width: 100%;
+}

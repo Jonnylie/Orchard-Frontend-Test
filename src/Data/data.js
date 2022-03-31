@@ -15,21 +15,38 @@ const data = {
     secondImage: fruits,
     thirdImage: asparagus,
   },
+
   allSection: {
     title: "ALL THE LATEST FROM AEG",
-    firstArticleTitle: "Summer Lunch Menu by Mark Best",
-    secondArticleTitle: "A Traditional Christmas Eve, Mark Best Style",
-    thirdArticleTitle: "Taking Taste Further",
-    firstArticleContent:
-      "AEG ambassador Mark Best’s summer eats are guaranteed to help you make the most of the warmer weather and entertaining at home.",
-    secondArticleContent:
-      "One of Australia's best chefs and AEG ambassador, Mark Best, shares his favourite Christmas Eve menu which is sure to impress your guests.",
-    thirdArticleContent:
-      "This exclusive cookbook gives you all the know‑how you need. We’ve designed it to make sure you get the most out of our products – and the best out of your food.",
     readMore: "READ MORE",
-    firstImage: summerLunch,
-    secondImage: christmasEveMenu,
-    thirdImage: exclusiveCookbook,
+    articles: [
+      {
+        title: "Summer Lunch Menu by Mark Best",
+        image: summerLunch,
+        content:
+          "AEG ambassador Mark Best’s summer eats are guaranteed to help you make the most of the warmer weather and entertaining at home.",
+      },
+      {
+        title: "A Traditional Christmas Eve, Mark Best Style",
+        image: christmasEveMenu,
+        content:
+          "One of Australia's best chefs and AEG ambassador, Mark Best, shares his favourite Christmas Eve menu which is sure to impress your guests.",
+      },
+      {
+        title: "Taking Taste Further",
+        image: exclusiveCookbook,
+        content:
+          "This exclusive cookbook gives you all the know‑how you need. We’ve designed it to make sure you get the most out of our products – and the best out of your food.",
+      },
+    ],
+    randomParagraphs: [
+      {
+        data: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor iaculis tristique. Aenean id sollicitudin dui, non efficitur neque. Mauris rhoncus tortor augue, eu varius turpis dignissim et. Sed quis placerat risus. Praesent sit amet justo ex. Duis vitae tincidunt ipsum, vitae pellentesque mi. Duis dictum elementum tortor, non aliquet diam lacinia in. Etiam cursus arcu sit amet eros viverra, sit amet aliquam ligula pellentesque. Nullam tempus fringilla nibh, venenatis tincidunt neque suscipit sit amet. Pellentesque eget porttitor felis. In hac habitasse platea dictumst. Donec ac sodales massa. Integer sit amet sapien a elit luctus luctus. Sed cursus id quam a pharetra. Proin rutrum libero quis egestas vulputate.",
+      },
+      {
+        data: "In erat massa, maximus sed erat ut, tempor consequat mi. Maecenas quis iaculis quam, non dapibus orci. Suspendisse dignissim est eu nunc egestas pretium. Cras scelerisque leo risus. Mauris id diam eget ex mattis volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius sollicitudin leo at posuere. Nullam commodo elit eget facilisis laoreet. Praesent sem neque, interdum vulputate placerat sit amet, pellentesque a eros. Duis auctor rhoncus lectus eu elementum. Sed condimentum fermentum finibus. Aenean consectetur laoreet diam blandit efficitur. Praesent venenatis ullamcorper suscipit. Sed euismod, elit eget vestibulum pellentesque, arcu lacus consectetur mauris, id finibus felis nisi nec magna. Quisque leo dui, posuere a lobortis eu, bibendum et est. Curabitur ultricies ipsum est, in mattis tellus aliquet ac.",
+      },
+    ],
   },
 };
 

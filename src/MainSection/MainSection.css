@@ -4,6 +4,10 @@
   margin: 120px 186px !important;
 }
 
+.main-title {
+  font-size: 26px;
+}
+
 .base-image {
   max-width: 384px;
   width: 100%;
